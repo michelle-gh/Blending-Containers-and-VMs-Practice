@@ -14,7 +14,9 @@ o directamente ejecutar el script:
 
 Por defecto firecracker no viene con ningún dispositivo de puente de internet, ejecute el siguiente script para acomodar un puente de internet (utiliza la misma interfaz de docker, por lo que requiere docker instalado)
 
-(REQUIERE LANZARSE CADA VEZ QUE SE REINICIE EL HOST)
+(REQUIERE EJECUTARSE CADA VEZ QUE SE REINICIE EL HOST)
+
+(REQUIERE EJECUTARSE ANTES DE LANZAR FIRECRACKER)
 
 (REQUIERE SUDO)
 
