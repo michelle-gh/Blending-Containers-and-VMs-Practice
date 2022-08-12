@@ -8,6 +8,8 @@ Para descargar firecracker, una imagen de ubuntu compatible y el sistema de arch
 
 Si falla, ejecutar 'make clean' y volver a ejecutar
 
+(normalmente falla la primera vez sin motivo aparente)
+
     make setup
 
 o directamente ejecutar el script:
