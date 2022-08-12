@@ -13,6 +13,7 @@ o directamente ejecutar el script:
 ## Dispositivo de internet para firecracker
 
 Por defecto firecracker no viene con ningún dispositivo de puente de internet, ejecute el siguiente script para acomodar un puente de internet (utiliza la misma interfaz de docker, por lo que requiere docker instalado)
+(REQUIERE LANZARSE CADA VEZ QUE SE REINICIE EL HOST)
 
     make net
 
