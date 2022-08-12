@@ -4,6 +4,10 @@
 
 Para descargar firecracker, una imagen de ubuntu compatible y el sistema de archivos correspondiente ejecutar una vez:
 
+(TARDA VARIOS MINUTOS)
+
+Si falla, ejecutar 'make clean' (´sudo rm -rf release\* ubuntu-firecracker firecracker vmlinux image.ext4´) y volver a ejecutar
+
     make setup
 
 o directamente ejecutar el script:
