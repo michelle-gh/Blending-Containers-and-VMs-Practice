@@ -6,7 +6,7 @@ Para descargar firecracker, una imagen de ubuntu compatible y el sistema de arch
 
 (TARDA VARIOS MINUTOS)
 
-Si falla, ejecutar 'make clean' (´sudo rm -rf release\* ubuntu-firecracker firecracker vmlinux image.ext4´) y volver a ejecutar
+Si falla, ejecutar 'make clean' y volver a ejecutar
 
     make setup
 
