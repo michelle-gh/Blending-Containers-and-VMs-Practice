@@ -1,14 +1,16 @@
 # Firecracker
 
-## Acomodar el ambiente
+## Configurar el ambiente
 
 Para descargar firecracker, una imagen de ubuntu compatible y el sistema de archivos correspondiente ejecutar una vez:
 
 (TARDA VARIOS MINUTOS)
 
-Si falla, ejecutar 'make clean' y volver a ejecutar
+Si falla, ejecutar 
 
-(normalmente falla la primera vez sin motivo aparente)
+    make clean
+
+Luego, volver a ejecutar. (normalmente falla la primera vez sin motivo aparente)
 
     make setup
 
