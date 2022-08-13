@@ -5,7 +5,7 @@ arch=`uname -m`
 kernel_path=$(pwd)"/ubuntu-firecracker/output/vmlinux"
 
 if [ ${arch} = "x86_64" ]; then
-    curl --unix-socket /tmp/firecracker$1.socket -i \
+    curl --unix-socket /tmp/firecracker.socket -i \
       -X PUT 'http://localhost/boot-source'   \
       -H 'Accept: application/json'           \
       -H 'Content-Type: application/json'     \
@@ -14,7 +14,7 @@ if [ ${arch} = "x86_64" ]; then
             \"boot_args\": \"console=ttyS0 reboot=k panic=1 pci=off\"
       }"
 elif [ ${arch} = "aarch64" ]; then
-    curl --unix-socket /tmp/firecracker$1.socket -i \
+    curl --unix-socket /tmp/firecracker.socket -i \
       -X PUT 'http://localhost/boot-source'   \
       -H 'Accept: application/json'           \
       -H 'Content-Type: application/json'     \

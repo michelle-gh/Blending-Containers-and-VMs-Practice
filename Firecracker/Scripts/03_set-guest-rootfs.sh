@@ -2,7 +2,7 @@
 
 # Set the guest rootfs
 rootfs_path=$(pwd)"/ubuntu-firecracker/output/image.ext4"
-curl --unix-socket /tmp/firecracker$1.socket -i \
+curl --unix-socket /tmp/firecracker.socket -i \
   -X PUT 'http://localhost/drives/rootfs' \
   -H 'Accept: application/json'           \
   -H 'Content-Type: application/json'     \
