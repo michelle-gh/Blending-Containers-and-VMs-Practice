@@ -1,6 +1,6 @@
 #! /usr/bin/bash
 
-curl --unix-socket /tmp/firecracker.socket -i  \
+curl --unix-socket /tmp/firecracker$1.socket -i  \
   -X PUT 'http://localhost/machine-config' \
   -H 'Accept: application/json'            \
   -H 'Content-Type: application/json'      \
